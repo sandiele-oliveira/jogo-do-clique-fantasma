@@ -1,6 +1,6 @@
-# Jogo do Rato🐀
+# Jogo do fantasma👻
 
-Um pequeno jogo interativo onde o objetivo é capturar o rato clicando nele. Porém, o rato tenta fugir movendo-se para posições aleatórias na tela quando o mouse se aproxima.
+Um pequeno jogo interativo onde o objetivo é capturar o fantasma clicando nele. Porém, o fantasma tenta fugir movendo-se para posições aleatórias na tela quando o mouse se aproxima.
 
 ## Tecnologias Utilizadas
 
@@ -10,13 +10,13 @@ Um pequeno jogo interativo onde o objetivo é capturar o rato clicando nele. Por
 
 ## Funcionalidades
 
-1. **Centralização Inicial**: Ao carregar a página, o rato aparece centralizado na tela.
-2. **Movimento Aleatório**: Quando o cursor do mouse se aproxima, o rato se move para uma posição aleatória dentro da janela do navegador.
-3. **Alerta de Captura**: Quando o rato é clicado, um alerta é exibido informando que ele foi capturado.
+1. **Centralização Inicial**: Ao carregar a página, o fantasma aparece centralizado na tela.
+2. **Movimento Aleatório**: Quando o cursor do mouse se aproxima, o fantasma se move para uma posição aleatória dentro da janela do navegador.
+3. **Alerta de Captura**: Quando o fantasma é clicado, um alerta é exibido informando que o jogador venceu o jogo!.
 
 ## Equipe:
 
-1. 
+1. Ricardo Teixeira Mendonça Dias De Oliveira
 2. 
 3. 
 4. 
