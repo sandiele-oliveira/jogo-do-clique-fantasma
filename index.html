@@ -8,17 +8,16 @@
 </head>
 <body>
     
-    <input class="rat_button" type="image" src="../clique_fantasma/img/fantasminha_camarada.png" alt="Ratinho" width="5%" height="5%">
+    <input class="fantasma_button" type="image" src="../clique_fantasma/img/fantasminha_camarada.png" alt="fantasmainho" width="5%" height="5%">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--SweetAlert2: Serve para mudar o template do alert-->
     <script>
             
-        let rat = document.querySelector('.rat_button');
+        let fantasma = document.querySelector('.fantasma_button');
 
         var htmlElement = document.documentElement;
         var bodyElement = document.body;
 
-
-        // isso daq pega o width e height do documento pra dps poder calcular o random position do rato
+        // isso daq pega o width e height do documento pra dps poder calcular o random position do fantasmao
         var width = Math.max(htmlElement.clientWidth, 
                             htmlElement.scrollWidth, htmlElement.offsetWidth,
                             bodyElement.scrollWidth, bodyElement.offsetWidth);
@@ -28,20 +27,19 @@
 
             window.addEventListener('load', () => {         
                 // qnd der load centraliza o bicho...
-                rat.style.position = 'absolute';
-                rat.style.left = '50%';
-                rat.style.top = '50%';
-                rat.style.transform = 'translate(-50%, -50%)';
+                fantasma.style.position = 'absolute';
+                fantasma.style.left = '50%';
+                fantasma.style.top = '50%';
+                fantasma.style.transform = 'translate(-50%, -50%)';
             });
 
-            rat.addEventListener('mouseover', (event) => {
-                // se o mouse chegar perto muda a posição do rato usando um random() com intervalo de 0 ate o width/height
-                rat.style.left = parseInt(Math.floor(Math.random() * width  )) + 'px'
-                rat.style.top = parseInt(Math.floor(Math.random() * height )) + 'px'
+            fantasma.addEventListener('mouseover', (event) => {
+                // se o mouse chegar perto muda a posição do fantasmao usando um random() com intervalo de 0 ate o width/height
+                fantasma.style.left = parseInt(Math.floor(Math.random() * width  )) + 'px'
+                fantasma.style.top = parseInt(Math.floor(Math.random() * height )) + 'px'
             });
 
-            rat.addEventListener('click', (event) => {
-                // se der pra botar um botãozinho bonitinho ao inves do alert aq ficaria legal
+            fantasma.addEventListener('click', (event) => {
                 Swal.fire({
                     title: "Parabéns, você venceu!",
                     width: 600,
