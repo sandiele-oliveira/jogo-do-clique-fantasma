@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clique_Fantasma</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <input class="rat_button" type="image" src="rat.png" alt="Ratinho" width="5%" height="5%">
-
+    <input class="rat_button" type="image" src="../clique_fantasma/img/fantasminha_camarada.png" alt="Ratinho" width="5%" height="5%">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--SweetAlert2: Serve para mudar o template do alert-->
     <script>
-
+            
         let rat = document.querySelector('.rat_button');
 
         var htmlElement = document.documentElement;
@@ -23,31 +23,44 @@
                             htmlElement.scrollWidth, htmlElement.offsetWidth,
                             bodyElement.scrollWidth, bodyElement.offsetWidth);
         var height = Math.max(htmlElement.clientHeight,
-                      htmlElement.scrollHeight, htmlElement.offsetHeight,
-                      bodyElement.scrollHeight, bodyElement.offsetHeight);
+                        htmlElement.scrollHeight, htmlElement.offsetHeight,
+                        bodyElement.scrollHeight, bodyElement.offsetHeight);
 
-        window.addEventListener('load', () => {         
-            // qnd der load centraliza o bicho...
-            rat.style.position = 'absolute';
-            rat.style.left = '50%';
-            rat.style.top = '50%';
-            rat.style.transform = 'translate(-50%, -50%)';
-        });
+            window.addEventListener('load', () => {         
+                // qnd der load centraliza o bicho...
+                rat.style.position = 'absolute';
+                rat.style.left = '50%';
+                rat.style.top = '50%';
+                rat.style.transform = 'translate(-50%, -50%)';
+            });
 
-        rat.addEventListener('mouseover', (event) => {
-            // se o mouse chegar perto muda a posição do rato usando um random() com intervalo de 0 ate o width/height
-            rat.style.left = parseInt(Math.floor(Math.random() * width)) + 'px'
-            rat.style.top = parseInt(Math.floor(Math.random() * height)) + 'px'
-        });
+            rat.addEventListener('mouseover', (event) => {
+                // se o mouse chegar perto muda a posição do rato usando um random() com intervalo de 0 ate o width/height
+                rat.style.left = parseInt(Math.floor(Math.random() * width  )) + 'px'
+                rat.style.top = parseInt(Math.floor(Math.random() * height )) + 'px'
+            });
 
-        rat.addEventListener('click', (event) => {
-            // se der pra botar um botãozinho bonitinho ao inves do alert aq ficaria legal
-            alert("Você pegou o rato!")
-        });
+            rat.addEventListener('click', (event) => {
+                // se der pra botar um botãozinho bonitinho ao inves do alert aq ficaria legal
+                Swal.fire({
+                    title: "Parabéns, você venceu!",
+                    width: 600,
+                    padding: "3em",
+                    color: "#716add",
+                    background: "#fff url(/images/trees.png)",
+                    backdrop: `
+                        rgba(0,0,123,0.4)
+                        url("https://i.redd.it/za055631yyy51.gif")
+                        left top
+                        no-repeat
+                    `
+                });
+        }
+        );
 
 
     </script>
-
+    
 
 </body>
 </html>
