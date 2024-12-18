@@ -18,6 +18,6 @@ Um pequeno jogo interativo onde o objetivo é capturar o fantasma clicando nele.
 
 1. Ricardo Teixeira Mendonça Dias De Oliveira
 2. 
-3. 
-4. 
+3. Francisca Sandiele Carvalho Oliveira
+4. Sabrina Rodrigues Malveira
 5. 
