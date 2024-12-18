@@ -17,7 +17,7 @@ Um pequeno jogo interativo onde o objetivo é capturar o fantasma clicando nele.
 ## Equipe:
 
 1. Ricardo Teixeira Mendonça Dias De Oliveira
-2. 
+2. Paulo Ricardson Silva Costa
 3. 
 4. 
 5. 
