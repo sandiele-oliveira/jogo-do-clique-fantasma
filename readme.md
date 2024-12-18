@@ -19,5 +19,5 @@ Um pequeno jogo interativo onde o objetivo é capturar o fantasma clicando nele.
 1. Ricardo Teixeira Mendonça Dias De Oliveira
 2. Paulo Ricardson Silva Costa
 3. David Rodrigues Cavalcante
-4. 
+4. Gustavo Rodrigues da Silva
 5. 
