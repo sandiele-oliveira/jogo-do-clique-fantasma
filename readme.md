@@ -20,4 +20,6 @@ Um pequeno jogo interativo onde o objetivo é capturar o fantasma clicando nele.
 2. Paulo Ricardson Silva Costa
 3. David Rodrigues Cavalcante
 4. Gustavo Rodrigues da Silva
-5. 
+5. Francisca Sandiele Carvalho Oliveira
+6. Sabrina Rodrigues Malveira
+
