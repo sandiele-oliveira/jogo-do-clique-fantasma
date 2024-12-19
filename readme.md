@@ -16,10 +16,10 @@ Um pequeno jogo interativo onde o objetivo é capturar o fantasma clicando nele.
 
 ## Equipe:
 
-1. Ricardo Teixeira Mendonça Dias De Oliveira
-2. Paulo Ricardson Silva Costa
-3. David Rodrigues Cavalcante
-4. Gustavo Rodrigues da Silva
-5. Francisca Sandiele Carvalho Oliveira
+1. David Rodrigues Cavalcante
+2. Francisca Sandiele Carvalho Oliveira
+3. Gustavo Rodrigues da Silva
+4. Paulo Ricardson Silva Costa
+5. Ricardo Teixeira Mendonça Dias de Oliveira
 6. Sabrina Rodrigues Malveira
 
